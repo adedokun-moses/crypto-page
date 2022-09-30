@@ -76,6 +76,8 @@
             <input type="text" placeholder="Enter your hash rate" />
             <select>
               <option>TH/s</option>
+              <option>EH/s</option>
+              <option>LH/s</option>
             </select>
             <button>Calculate</button>
           </form>
@@ -250,7 +252,7 @@
               <span style="margin-left: 15px">CRAPPO</span>
             </li>
           </div>
-          <div class="nowonder">
+        
             <div class="links">
               <span class="links_head">Quick inks</span>
               <ul>
@@ -271,7 +273,7 @@
                 <li>Interest</li>
               </ul>
             </div>
-          </div>
+      
 
           <div class="payment">
             <h5>
@@ -748,6 +750,8 @@ footer {
 .links img {
   margin: 0px;
 }
+
+
 .payment h5 {
   margin: 0px;
   font-size: 25px;
@@ -1002,15 +1006,13 @@ footer {
     width: 100%;
     height: auto;
   }
-  .links{
-    width: 50%;
-     margin: 0px 20px;
+  .links {
+    width: 10%;
   }
   .links ul {
     list-style: none;
     margin: 40px 0px;
     padding: 0px;
-
   }
   .links li {
     margin: 20px 0px;
@@ -1019,7 +1021,7 @@ footer {
     font-size: 30px;
   }
 
-  .payment{
+  .payment {
     display: block;
     width: 100%;
     margin: auto;
@@ -1030,13 +1032,11 @@ footer {
     font-size: 25px;
     font-weight: bold;
     mix-blend-mode: normal;
- 
   }
   .payment i {
     margin: 30px 10px;
     background: black;
     color: #e0e0e0;
-     
   }
   .last_footer {
     flex-direction: column;
@@ -1065,11 +1065,11 @@ footer {
     width: 50%;
     margin: 30px auto;
   }
-  .nowonder{
+/*   .nowonder {
     display: flex;
   }
-  .nowonder > div{
+  .nowonder > div {
     width: 100%;
-  }
+  } */
 }
 </style>
