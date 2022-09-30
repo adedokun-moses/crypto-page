@@ -158,7 +158,7 @@ export default {
   }
   .logo i {
     color: white;
-    margin-left: 14rem;
+    margin-left: 12rem;
     margin-top: 3px;
   }
   .nav li {

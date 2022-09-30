@@ -250,26 +250,29 @@
               <span style="margin-left: 15px">CRAPPO</span>
             </li>
           </div>
-          <div class="links">
-            <span class="links_head">Quick inks</span>
-            <ul>
-              <li>Home</li>
-              <li>Product</li>
-              <li>About</li>
-              <li>Features</li>
-              <li>Contact</li>
-            </ul>
+          <div class="nowonder">
+            <div class="links">
+              <span class="links_head">Quick inks</span>
+              <ul>
+                <li>Home</li>
+                <li>Product</li>
+                <li>About</li>
+                <li>Features</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+            <div class="links">
+              <span class="links_head">Resources</span>
+              <ul>
+                <li>Download Whitepapper</li>
+                <li>Smart Token</li>
+                <li>Blockchain Explorer</li>
+                <li>Crypto API</li>
+                <li>Interest</li>
+              </ul>
+            </div>
           </div>
-          <div class="links">
-            <span class="links_head">Resources</span>
-            <ul>
-              <li>Download Whitepapper</li>
-              <li>Smart Token</li>
-              <li>Blockchain Explorer</li>
-              <li>Crypto API</li>
-              <li>Interest</li>
-            </ul>
-          </div>
+
           <div class="payment">
             <h5>
               We accept following <br />
@@ -699,7 +702,7 @@ export default {
   padding: 10px 10px;
   width: 60%;
   outline: none;
-  color: #ffffff;
+  color: white;
 
   mix-blend-mode: normal;
 }
@@ -777,10 +780,9 @@ footer {
   align-items: center;
   color: white;
   margin: 0px;
-   font-size: 20px;
- 
+  font-size: 20px;
 }
-.links_head{
+.links_head {
   font-size: 30px;
 }
 @media only screen and (max-width: 600px) {
@@ -991,20 +993,24 @@ footer {
   }
   .footer_det {
     margin: auto;
+    width: 100%;
     padding-top: 30px;
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
     color: white;
-    text-align: center;
   }
   .footer_det > div {
     width: 100%;
     height: auto;
   }
+  .links{
+    width: 50%;
+     margin: 0px 20px;
+  }
   .links ul {
     list-style: none;
     margin: 40px 0px;
     padding: 0px;
+
   }
   .links li {
     margin: 20px 0px;
@@ -1013,16 +1019,24 @@ footer {
     font-size: 30px;
   }
 
+  .payment{
+    display: block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
   .payment h5 {
     margin: 0px;
     font-size: 25px;
     font-weight: bold;
     mix-blend-mode: normal;
+ 
   }
   .payment i {
     margin: 30px 10px;
     background: black;
     color: #e0e0e0;
+     
   }
   .last_footer {
     flex-direction: column;
@@ -1047,9 +1061,15 @@ footer {
     display: flex;
     align-items: center;
     color: white;
-  font-size: 30px;
-   width: 50%;
-   margin: 30px auto;
+    font-size: 30px;
+    width: 50%;
+    margin: 30px auto;
+  }
+  .nowonder{
+    display: flex;
+  }
+  .nowonder > div{
+    width: 100%;
   }
 }
 </style>
