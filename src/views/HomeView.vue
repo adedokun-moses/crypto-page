@@ -252,7 +252,8 @@
               <span style="margin-left: 15px">CRAPPO</span>
             </li>
           </div>
-        
+
+          <div class="nowonder">
             <div class="links">
               <span class="links_head">Quick inks</span>
               <ul>
@@ -273,7 +274,7 @@
                 <li>Interest</li>
               </ul>
             </div>
-      
+          </div>
 
           <div class="payment">
             <h5>
@@ -723,7 +724,7 @@ footer {
   margin: 0px;
 }
 .footer_det {
-  width: 80%;
+  width: 75%;
   margin: auto;
   padding-top: 30px;
   display: flex;
@@ -750,8 +751,9 @@ footer {
 .links img {
   margin: 0px;
 }
-
-
+.payment{
+ margin: 0px 40px;
+}
 .payment h5 {
   margin: 0px;
   font-size: 25px;
@@ -788,6 +790,13 @@ footer {
 }
 .links_head {
   font-size: 30px;
+}
+.nowonder {
+  display: flex;
+}
+.nowonder > div {
+  width: 100%;
+  margin: 0px 0px;
 }
 @media only screen and (max-width: 600px) {
   .container {
@@ -1006,9 +1015,11 @@ footer {
     width: 100%;
     height: auto;
   }
-  .links {
+  /*   .links {
+    display: block;
+    background: red;
     width: 10%;
-  }
+  } */
   .links ul {
     list-style: none;
     margin: 40px 0px;
@@ -1065,11 +1076,12 @@ footer {
     width: 50%;
     margin: 30px auto;
   }
-/*   .nowonder {
+  .nowonder {
     display: flex;
   }
   .nowonder > div {
     width: 100%;
-  } */
+    margin: 0px 12px;
+  }
 }
 </style>
