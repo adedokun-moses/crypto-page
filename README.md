@@ -1,5 +1,7 @@
 # landingpage
 
+This is a landing page for a cryptocurrency website. Design inspired by a Figma was developed with the use of html css and Vue Js. 
+
 ## Project setup
 ```
 npm install
